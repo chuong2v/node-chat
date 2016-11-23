@@ -1,0 +1,36 @@
+{
+  "name": "node-chat",
+  "version": "1.0.0",
+  "description": "chat room",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/chuong2v/node-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "room",
+    "node"
+  ],
+  "author": "chuong2v",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuong2v/node-chat/issues"
+  },
+  "homepage": "https://github.com/chuong2v/node-chat#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "socket.io": "^1.6.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.18.2",
+    "babel-preset-latest": "^6.16.0",
+    "babel-register": "^6.18.0"
+  }
+}
